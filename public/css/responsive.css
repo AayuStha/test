@@ -1,0 +1,177 @@
+@media (max-width: 1200px) {
+    .hero {
+        margin-left: 50px;
+        font-size: 20px; /* Slightly smaller */
+    }
+    nav ul {
+        flex-direction: row; /* Keep in row but adjust spacing if needed */
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul {
+        flex-direction: column;
+        width: 100%; /* Full width for better touch targets */
+        align-items: center;
+        gap: 10px; /* Reduce gap */
+    }
+    .hero {
+        margin-left: 0;
+        padding: 20px;
+        text-align: center;
+        font-size: 18px; /* Further reduce font size */
+    }
+    .features {
+        flex-direction: column; /* Stack features vertically on smaller screens */
+        align-items: center; /* Center-align items */
+    }
+
+    .feature {
+        width: 80%; /* Make each feature take 80% of the container width */
+        margin-bottom: 20px; /* More space between stacked items */
+    }
+
+    .feature img {
+        width: 60px; /* Smaller images on smaller screens */
+        height: 60px;
+    }
+
+    .feature p {
+        font-size: 14px; /* Slightly smaller font size on mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul li a {
+        font-size: 16px; /* Even smaller for phone screens */
+    }
+    .hero {
+        font-size: 16px; /* Ensure text is not too large for phone screens */
+    }
+    .body {
+        background-size: contain; /* Adjust background sizing */
+    }
+    .feature {
+        width: 100%; /* Full width features on very small screens */
+    }
+}
+/* 
+@media (max-width: 480px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .hero {
+        margin-left: 0;
+        padding: 50px 20px;
+        text-align: center;
+    }
+    .hero h2 {
+        font-size: 32px;
+    }
+    .hero p {
+        font-size: 18px;
+    }
+    .section {
+        margin: 50px 0;
+        height: auto;
+    }
+    .section .features {
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+    }
+    .products {
+        height: auto;
+        padding: 20px;
+    }
+    .products .container .text {
+        flex-direction: column;
+        align-items: center;
+    }
+    .products .container .text h3 {
+        margin-left: 0;
+        text-align: center;
+    }
+    .products .container .text a {
+        margin-left: 0;
+        padding: 10px 0;
+    }
+    .product-item {
+        width: 100%;
+    }
+    footer .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .footer-section {
+        margin: 20px 0;
+    }
+}
+
+/* Tablets */
+/* @media (min-width: 481px) and (max-width: 900px) {
+    .header {
+        padding: 20px 10px;
+    }
+    nav ul {
+        gap: 20px;
+    }
+    .hero {
+        margin-left: 0;
+        padding: 70px 20px;
+        text-align: center;
+    }
+    .hero h2 {
+        font-size: 36px;
+    }
+    .hero p {
+        font-size: 20px;
+    }
+    .section {
+        margin: 100px 0;
+        height: auto;
+    }
+    .section .features {
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+    }
+    .products {
+        height: auto;
+        padding: 20px;
+    }
+    .products .container .text {
+        flex-direction: column;
+        align-items: center;
+    }
+    .products .container .text h3 {
+        margin-left: 0;
+        text-align: center;
+    }
+    .products .container .text a {
+        margin-left: 0;
+        padding: 10px 0;
+    }
+    .product-item {
+        width: 45%;
+        margin: 2.5%;
+    }
+    footer .container {
+        flex-direction: column;
+        align-items: center;
+        transform: translateY(200vh);
+    }
+    footer .footer-section {
+        margin: 20px 0;
+    }
+} */ 

@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", sans-serif;
+}
+.body{
+    height: 780px;
+    background-image: url('../images/homepage.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    padding: 10px 20px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+a {
+    margin: 20px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #000;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+.icons{
+    display: flex;
+}
+
+.icons i {
+    margin-left: 10px;
+    font-size: 20px;
+    color: black;
+    display: inline-block;
+    position: relative;
+}
+
+ul li a:hover, .icons i:hover {
+    color: #ddd;
+}
+
+.icons a {
+    margin-left: 10px;
+}
+.hero {
+    font-family: "Poppins", sans-serif;
+    margin-left: 800px;
+    padding: 100px 0;
+    color: black;
+    text-align: left;
+    font-size: 25px;
+}
+.hero h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+.hero p{
+    font-size: 20px;
+}
+.hero .btn{
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 0;
+    border-radius: 8px;
+    text-decoration: none;
+    transform: translateY(80px) !important;
+    display: inline-block; 
+    position: relative;
+}
+.hero a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.section{
+    background-color: #B3BCC5;
+    height: 220px;
+}
+.section .features{  
+    transform: translateY(20px);
+    margin-left: 55px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 50px 0;
+    background-color: rgba(203, 209, 215, 1);
+    height: 170px;
+    width: 1400px;
+    border-radius: 16px;
+}
+
+.features .feature {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+}
+.features .feature img{
+    height: 50px;
+    width: 50px;
+}
+.products{
+    height: 920px;
+    padding: 20px 0;
+    background-color: #AFB8C1;
+}
+.products .container .text{
+    display: flex;
+}
+.products .container .text h3{
+    font-family: "Poppins";
+    font-size: 24px;
+    margin-left: 65px;
+}
+.products .container .text a{
+    font-family: "Poppins";
+    margin-left: auto;
+    padding-top: 10px;
+    padding-right: 70px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+}
+.products .container .text a:hover{
+    color: #ddd;
+}
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 10px 50px;
+}
+
+.product-item {
+    /* width: 250px; */
+    height: 350px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.product-item img {
+    width: 250px;
+    height: 270px;
+    display: flex;
+    border-radius: 10px 10px 0 0;
+}
+.product-item .text{
+    font-family: "Poppins",sans-serif;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.product-item .price-cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.product-item .price-cart p {
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+}
+
+.product-item .price-cart i {
+    color: #000;
+    font-size: 22px;
+    transform: translateX(16px);
+}
+.product-item .price-cart i:hover {
+    color: #333;
+}
+
+/* Contact page */
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-info {
+    width: 60%;
+}
+
+.map iframe {
+    width: 100%;
+    height: 450px;
+    border: 0;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+.info p {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.info p i {
+    margin-right: 10px;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+
+.contact-form {
+    width: 35%;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+
+.contact-form p {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+/* Footer section */
+
+footer {
+    font-family: "Poppins",sans-serif;
+    background-color: #F5F5F5; 
+    color: #000; 
+    padding: 40px; 
+    text-align: left; 
+}
+
+footer .container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    align-items: flex-start;
+    max-width: 1480px; 
+    margin: 0 auto;
+}
+
+footer .footer-section {
+    flex: 1; 
+    margin: 20px; 
+    min-width: 200px; 
+}
+footer .footer-section h3 {
+    font-size: 20px;
+    margin-top: 25px; 
+    text-transform: uppercase; 
+}
+
+footer .footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 10px; 
+    text-transform: uppercase; 
+}
+#wraps{
+    transform: translateX(20px);
+}
+
+footer .social i{
+    font-size: 24px; 
+    margin: 20px 3px; 
+    transition: transform 0.3s; 
+    color: #000;
+}
+
+footer .footer-section p,
+footer .footer-section ul,
+footer .footer-section form {
+    margin: 0; 
+    padding: 0; 
+    list-style: none;
+}
+
+footer .footer-section ul li {
+    margin-bottom: 10px; 
+}
+
+footer .footer-section ul li a {
+    color: #000; 
+    text-decoration: none; 
+    transition: color 0.3s; 
+}
+
+footer .footer-section ul li a:hover {
+    color: #ddd; 
+}
+
+footer .footer-section form {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+}
+
+footer .footer-section form input[type="email"] {
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border: none;
+    border-radius: 5px; 
+    flex: 1;
+}
+
+
+form input{
+    border: 1px solid black !important ;
+    margin-right: 10px;
+}
+footer .footer-section form button {
+    padding: 10px; 
+    margin-bottom: 13px;
+    border: none; 
+    border-radius: 5px; 
+    background-color: #029FAE; 
+    color: #000; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+footer .footer-section form button:hover {
+    background-color: #777; 
+}
+
+footer .container:last-child {
+    
+    margin-top: 20px; 
+    border-top: 1px solid #444; 
+    padding-top: 20px; 
+    
+}
+
+footer .container:last-child p {
+    margin: 0; 
+    font-size: 14px; 
+    margin-left: auto;
+    text-align: right;
+}
+

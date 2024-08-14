@@ -1,0 +1,4 @@
+{
+    "editor.defaultFoldingRangeProvider": "GitHub.copilot-chat",
+    "editor.defaultFormatter": "GitHub.copilot-chat"
+}

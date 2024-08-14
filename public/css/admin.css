@@ -1,0 +1,134 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+}
+
+h1, h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+table img {
+  max-width: 50px;
+  border-radius: 4px;
+}
+
+table form {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+table form input[type="text"],
+table form textarea {
+  width: auto;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+table form button {
+  padding: 5px 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+table form button:hover {
+  background-color: #218838;
+}
+
+table form button[type="submit"] {
+  background-color: #dc3545;
+}
+
+table form button[type="submit"]:hover {
+  background-color: #c82333;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  form, table {
+      width: 100%;
+  }
+
+  table th, table td {
+      display: block;
+      width: 100%;
+  }
+
+  table th {
+      text-align: center;
+  }
+
+  table td {
+      text-align: center;
+  }
+}

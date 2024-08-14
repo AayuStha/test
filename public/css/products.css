@@ -1,0 +1,29 @@
+
+h1, h2 {
+    color: #333;
+}
+
+input, textarea, button {
+    display: block;
+    margin: 10px 0;
+}
+
+#products-container div, #user-list div {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    #products-container div, #user-list div {
+        font-size: 14px;
+    }
+
+    img {
+        width: 100px;
+    }
+}
